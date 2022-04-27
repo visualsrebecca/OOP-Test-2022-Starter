@@ -17,3 +17,12 @@ public class Main
         
     }
 }
+
+
+/* 
+
+Write a class called Nematode that has appropriate fields, a constructor, accessor methods and a toString method.
+Include in your solution a constructor that takes a TableRow parameter from the Processing library as a parameter.
+
+
+*/
