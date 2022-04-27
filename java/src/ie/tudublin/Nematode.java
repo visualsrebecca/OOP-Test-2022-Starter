@@ -108,6 +108,15 @@ public class Nematode {
     }
 
 
+    // drawing the Nematodes
+    public void render(NematodeVisualiser pa){
+
+        pa.stroke(50, 55, 100);
+        pa.noFill();
+        pa.circle(400, 400, 50);
+
+
+    }
 
 
 

@@ -26,7 +26,7 @@ public class NematodeVisualiser extends PApplet
 
 	public void setup() 
 	{
-		colorMode(HSB);
+		colorMode(RGB);
 		background(0);
 		smooth();
 		
@@ -62,7 +62,13 @@ public class NematodeVisualiser extends PApplet
 	}
 
 
+	// print the nematodes to screen
 	public void draw()
 	{	
+		for(Nematode n:nematodes){
+
+			n.render(this);
+		}
+
 	}
 }
