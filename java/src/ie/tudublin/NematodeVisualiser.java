@@ -63,7 +63,7 @@ public class NematodeVisualiser extends PApplet
 
 
 	// print the nematodes to screen
-	public void draw()
+	public void drawNematodes()
 	{	
 		for(Nematode n:nematodes){
 
@@ -71,4 +71,19 @@ public class NematodeVisualiser extends PApplet
 		}
 
 	}
+
+	public void draw()
+	{
+		drawNematodes();
+
+		for(Nematode n:nematodes)
+		{
+			
+
+		}
+	}
+
+
+
+
 }

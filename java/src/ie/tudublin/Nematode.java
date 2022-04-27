@@ -111,9 +111,13 @@ public class Nematode {
     // drawing the Nematodes
     public void render(NematodeVisualiser pa){
 
+        //draw nematode length
         pa.stroke(255, 204, 0);
         pa.noFill();
         pa.circle(400, 400, 50);
+
+        
+
 
         // draw left arrow 
         pa.line(100, 400, 250, 400);
